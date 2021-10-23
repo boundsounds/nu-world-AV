@@ -1,0 +1,54 @@
+.staticVideo{
+    width: 350px;
+    height: 300px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      /* bring your own prefixes */
+      transform: translate(-50%, -80%);
+      opacity: 70%;
+      z-index:-5;
+}
+.backgroundShapesLeft{
+    
+    width: 100%;
+}
+.logoText{
+    width: 25%;
+}
+.logoImage{
+    width: 33%;
+    padding-left: 10%;
+    
+
+}
+body{
+    margin: 5%;
+    padding: 3%;
+    background-image: url("anuv3.mp4");
+    
+}
+p{
+    text-align: left;
+    z-index:-4;
+}
+.dates{
+   width: 75%;
+   height: 75%;
+    
+    
+    
+    
+}
+.backgroundVideo{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    opacity: 7%;
+    flex: auto;
+}
